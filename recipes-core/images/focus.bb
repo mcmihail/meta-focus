@@ -1,3 +1,3 @@
-IMAGE_INSTALL += "libav mplayer"
+include recipes-core/images/rpi-basic-image.bb
 
-require recipes-core/images/rpi-hwup-image.bb
+IMAGE_INSTALL += "mplayer2"
